@@ -12,8 +12,8 @@
 			"logo_svg": ""
 		},
 		"location": {
-			"name": "Japen",
-			"country": "JP",
+			"name": "Iraq",
+			"country": "IQ",
 			"latitude": 100.2111,
 			"longitude": 7551.221
 		},
@@ -32,8 +32,8 @@
 	"nodes": [
 		{
 			"location": {
-				"name": "Japen",
-				"country": "JP",
+				"name": "Iraq",
+				"country": "IQ",
 				"latitude": 100.2111,
 				"longitude": 7551.221
 			},
