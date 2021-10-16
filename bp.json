@@ -1,0 +1,43 @@
+{
+	"producer_account_name": "codystinks",
+	"org": {
+		"candidate_name": "⚛𓉱Cody Stinks𓉱⚛",
+		"website": "https://codynodestinks.github.io/codystinks/",
+		"code_of_conduct": "https://codynodestinks.github.io/codystinks/",
+		"email": "codynodestinks@Outlook.com",
+		"ownership_disclosure": "https://codynodestinks.github.io/codystinks/ownerhip.html",
+		"branding": {
+			"logo_256": "https://codynodestinks.github.io/codystinks/actuallycirclethingy256.png",
+			"logo_1024": "https://codynodestinks.github.io/codystinks/actuallycirclethingy1024.png",
+			"logo_svg": ""
+		},
+		"location": {
+			"name": "Japan",
+			"country": "JP",
+			"latitude": 100.2111,
+			"longitude": 7551.221
+		},
+		"social": {
+			"steemit": "stasadance",
+			"twitter": "cody_node",
+			"youtube": "stasadance",
+			"facebook": "stasadance",
+			"github": "stasadance",
+			"reddit": "cody_node",
+			"keybase": "stasadance",
+			"telegram": "stasadance",
+			"wechat": "cody_node"
+		}
+	},
+	"nodes": [
+		{
+			"location": {
+				"name": "Japan",
+				"country": "JP",
+				"latitude": 100.2111,
+				"longitude": 7551.221
+			},
+			"node_type": "producer"
+		}
+	]
+}
