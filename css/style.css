@@ -1,6 +1,5 @@
 body {
-    display: flex;
-    width: 99%;
+    display: inline list-item;
     height: 80vh;
     background-color: #262626;
     justify-content: center;
@@ -46,3 +45,79 @@ body {
 .btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover{
     color: gray;
 }
+/* this dumb shit below main 4 buttons*/
+.container {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+  }
+  section.whitepaper {
+    text-align: center;
+    color: #6332a8;
+  }
+  section.whitepaper span.line {
+    display: block;
+    margin: 1rem auto;
+    height: 2px;
+    width: 200px;
+    background: #5e4da0;
+  }
+  section.whitepaper a.btn {
+    display: block;
+    margin: 1rem auto;
+    color: mediumpurple;
+    text-decoration: none;
+  }
+  section.whitepaper .cards {
+    margin-top: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    grid-gap: 20px;
+  }
+  section.whitepaper .cards .card {
+    width: 400px;
+    border-radius: 4px;
+    padding: 1rem .9rem;
+    background: #262626;
+    -webkit-box-shadow: #9370db 0 10px 20px;
+            box-shadow: #9370db 0 10px 20px;
+    display: block;
+  }
+  section.whitepaper .cards .card h4 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    color: #6332a8;
+  }
+  section.whitepaper .cards .card p {
+    text-align: left;
+    letter-spacing: 0.2px;
+    line-height: 1.2;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    color: mediumpurple;
+  }
+
+  @media only screen and (max-width: 450px) {
+    section.about .text {
+      font-size: 3vw;
+    }
+    section.about .features ul {
+      text-align: center;
+    }
+    section.about .features ul li {
+      font-size: 3vw;
+    }
+    section.about .features img {
+      height: unset;
+      min-height: unset;
+      width: 75%;
+    }
+  }
